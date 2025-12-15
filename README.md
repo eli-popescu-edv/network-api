@@ -1,6 +1,4 @@
 
----
-
 # Network API
 
 A **FastAPI** service that provides an **IP Subnet Calculator** and a small set of **network utilities**.
