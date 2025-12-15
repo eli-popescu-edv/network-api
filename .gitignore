@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*/__pycache__/
+
+.env
+
+.idea/
+
+kubectl
+kubectl.sha256
+
+uv.lock
