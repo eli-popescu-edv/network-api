@@ -1,4 +1,3 @@
-Got it — here’s a more professional **English README**, with a structure similar to the template style (intro → description → getting started → help), and **without embedding your YAML**, since you already have it in the repo.
 
 ---
 
