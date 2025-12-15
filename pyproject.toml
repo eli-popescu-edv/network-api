@@ -1,0 +1,13 @@
+[project]
+name = "weather-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "docker>=7.1.0",
+    "fastapi>=0.124.0",
+    "kubernetes>=34.1.0",
+    "pydantic>=2.12.5",
+    "uvicorn[standard]",
+]

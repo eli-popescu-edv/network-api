@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: network-api-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: network-api
+  ports:
+    - port: 8000
+      targetPort: 8000
+

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: network-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: network-api
+  template:
+    metadata:
+      labels:
+        app: network-api
+    spec:
+      containers:
+        - name: network-api
+          image: network-api:latest
+          imagePullPolicy: Always
+          envFrom:
+            - configMapRef:
+                name: network-api-config
+          ports:
+            - containerPort: 8000
