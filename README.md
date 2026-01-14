@@ -247,4 +247,3 @@ A future improvement would be to add **GitHub Actions** for:
 * enforcing code formatting (`black --check`)
 * linting
 
----
