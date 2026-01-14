@@ -118,33 +118,6 @@ The API will be available at:
 
 ---
 
-## Code Formatting & Style
-
-The following tools were used to maintain a consistent Python code style:
-
-* **Black** – automatic code formatter
-
-Run manually:
-
-```bash
-black .
-```
----
-
-##  CI / Pipeline
-
-### CI/CD Pipeline
-
-**This project does not currently include an automated CI/CD pipeline.**
-
-A future improvement would be to add **GitHub Actions** for:
-
-* enforcing code formatting (`black --check`)
-* linting
-
----
-
-
 ###  Kubernetes / Minikube deployment
 
 #### 1) Start Minikube
@@ -247,5 +220,31 @@ kubectl logs <pod-name> --previous --tail=200
 * Uvicorn
 * uv (Astral)
 * Docker & Kubernetes 
+
+---
+
+## Code Formatting & Style
+
+The following tools were used to maintain a consistent Python code style:
+
+* **Black** – automatic code formatter
+
+Run manually:
+
+```bash
+black .
+```
+---
+
+##  CI / Pipeline
+
+### CI/CD Pipeline
+
+**This project does not currently include an automated CI/CD pipeline.**
+
+A future improvement would be to add **GitHub Actions** for:
+
+* enforcing code formatting (`black --check`)
+* linting
 
 ---
